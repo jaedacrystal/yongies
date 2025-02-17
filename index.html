@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en" data-bss-forced-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>test</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader&amp;display=swap">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+</head>
+
+<body><h2 id="name">yours truly, jaeda</h2>
+
+    <div id="text"><img src="assets/text.gif">
+        <h1>happy 2nd anniversary baby, i can't believe it's been that long. this website just compiles a few of my favorite things about us: my letters, our photos, and our playlist. i hope you appreciate this website as much as i appreciate you. here's to more anniversaries, and endless gifts to come. i love you, always.</h1>
+    </div>
+    <div class="folder1"><img src="assets/folder.png">
+        <h1>photos</h1>
+    </div>
+    <div class="folder2"><img src="assets/folder.png">
+        <h1>letters</h1>
+    </div>
+    <div class="folder3"><img src="assets/folder.png">
+        <h1>playlist</h1>
+    </div>
+
+    <div class="phts">
+        <div class="container">
+            <div id="popup-window">
+                    <h1>photos</h1>
+                <div class="photos">
+                    <img src="assets/img1.jpg">
+                    <img src="assets/img2.jpg">
+                    <img src="assets/img3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="letters">
+        <div class="container">
+            <div id="popup-window">
+                    <h1>letters</h1>
+                <div class="photos">    
+                    <img src="assets/letter1.png" onclick="window.open('assets/letter1.png', '_blank');">
+                    <img src="assets/letter2.png" onclick="window.open('assets/letter2.png', '_blank');">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="playlist">
+        <div class="container">
+            <div id="popup-window">
+                    <h1>playlist</h1>
+                <div class="photos">
+                    <a href="https://open.spotify.com/playlist/2JpcM9XLYkzFplQGru0Q1n?si=1f0f5fdb6d3c4989" target="_blank"><img src="assets/qr.png" alt="click me!"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div id="song">
+        <h1><b>Now Playing:</b> Bewitched by Laufey</h1>
+        <div class="record">
+            <audio id="audio">
+                <source src="assets/bewitched.mp3" type="audio/mpeg">
+            </audio>
+            <img src="assets/record.png" onClick="audioControls()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
